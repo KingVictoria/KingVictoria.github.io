@@ -4,12 +4,53 @@
         <meta charset="UTF-8">
         <title>KingVictoria Github Page</title>
         <link rel="icon" type="image/ico" href="favicon.ico" />
+		<style>
+			.block {
+			  display: block;
+              width: 100%;
+			  border: none;
+			  background-color: #ff0000;
+			  color: #910000;
+			  padding: 2px 2px;
+			  font-size: 18px;
+			  font-family: Courier;
+			  cursor: pointer;
+			  text-align: center;
+			  font-weight: bold;
+			}
+			
+			.bottomblock {
+			  display: block;
+              width: 100%;
+			  border: none;
+			  background-color: #ff0000;
+			  color: #910000;
+			  padding: 2px 2px;
+			  font-size: 18px;
+			  font-family: Courier;
+			  cursor: pointer;
+			  text-align: center;
+			  font-weight: bold;
+			  border-color: #5e0000;
+			  border-style: none none solid none;
+			  border-width: 5px;
+			}
+			
+			.block:hover {
+			  background-color: #ff3333;
+			  color: #912222;
+			}
+			
+			.bottomblock:hover {
+			  background-color: #ff3333;
+			  color: #912222;
+			}
+		</style>
     </head>
     <style>
 		body {
 			background-color: #8c0000;
 		}
-
 		h1 {
 			font-family: Courier;
 			font-size: 80px;
@@ -20,7 +61,6 @@
 			border-style: solid none solid none;
 			border-width: 5px;
 		}
-
 		h3 {
 			background-color: #ff0000;
 			font-family: Courier;
@@ -29,32 +69,17 @@
 			border-color: #5e0000;
 			border-style: solid none none none;
 			border-width: 5px;
-		}
-
-		p {
-			background-color: #ff0000;
-			font-family: Courier;
-			font-size: 20px;
-			text-align: center;
-			border-color: #5e0000;
-			border-style: none none solid none;
-			border-width: 5px;
+			font-size: 24px;
 		}
 	</style>
     <body>
         <h1>KingVictoria Github Page</h1>
-        <h3>Games</h3>
-        <p>
-            <a href="http://cobweb.cs.uga.edu/~amiller/games/1940/1940.html">1940</a><br>
-            <a href="http://old.reddit.com/r/civex">Civilization Experiment</a>
-        </p>
-        <h3>Projects</h3>
-        <p>
-            <a href="https://github.com/Sharpcastle33/AspectAlchemy">AspectAlchemy</a>
-        </p>
-        <h3>Docs</h3>
-        <p>
-            <a href="docs/aspectalchemy/index.html">AspectAlchemy</a>
-        </p>
+        <h3>- Games -</h3>
+		<form action="http://cobweb.cs.uga.edu/~amiller/games/1940/1940.html"><input type="submit" class="block" value="1940" /></form>
+		<form action="http://old.reddit.com/r/civex"><input type="submit" class="bottomblock" value="CivEx" /></form>
+        <h3>- Projects -</h3>
+		<form action="https://github.com/Sharpcastle33/AspectAlchemy"><input type="submit" class="bottomblock" value="AspectAlchemy" /></form>
+        <h3>- Docs -</h3>
+		<form action="docs/aspectalchemy/index.html"><input type="submit" class="bottomblock" value="AspectAlchemy" /></form>
     </body>
 </html>
